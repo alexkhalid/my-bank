@@ -4,13 +4,17 @@ padding: 100px;
 }
 .bank-title{
     text-align: center;
+    text-shadow: 10px;
+    color: rgba(248, 84, 55, 0.856);
+    font-weight: 800px;
+    font-style: italic;
 }
 .submit-area{
-    margin-top: 80px;
-    padding: 40px;
-    border: 1px solid grey;
+    margin-top: 100px;
+    padding: 50px;
+    border: 2px solid rgb(87, 55, 55);
     border-radius: 15px;
-    box-shadow: 8px 8px lightgray;
+    box-shadow: 8px 8px rgb(121, 118, 118);
 }
 #transaction-area{
     display: none;
@@ -31,3 +35,7 @@ padding: 100px;
 .Balance{
 background-color: orange;
 }
+footer {
+    text-align:center;
+    padding: 70px;
+  }
